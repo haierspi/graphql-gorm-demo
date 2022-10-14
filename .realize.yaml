@@ -1,0 +1,22 @@
+settings:
+  legacy:
+    force: false
+    interval: 0s
+schema:
+- name: be-hhcg
+  path: .
+  env:
+    db_dirver: mysql
+    db_dsn: "root:root@xusheng1.xuxusheng.com/hhcg?charset=utf8&parseTime=True&loc=Local"
+  commands:
+    run:
+      status: true
+  watcher:
+    extensions:
+    - go
+    paths:
+    - /
+    ignored_paths:
+    - .git
+    - .realize
+    - vendor
