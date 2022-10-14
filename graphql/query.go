@@ -1,8 +1,8 @@
 package graphql
 
 import (
-	"gitee.com/xuxusheng/be-hhcg/graphql/types"
 	"github.com/graphql-go/graphql"
+	"github.com/haierspi/graphql-gorm-demo/graphql/types"
 )
 
 var rootQuery = graphql.NewObject(graphql.ObjectConfig{

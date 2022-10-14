@@ -1,9 +1,9 @@
 package main
 
 import (
-	"gitee.com/haierspi/graphql-gorm-demo/db"
-	"gitee.com/haierspi/graphql-gorm-demo/graphql"
 	"github.com/gin-gonic/gin"
+	"github.com/haierspi/graphql-gorm-demo/db"
+	"github.com/haierspi/graphql-gorm-demo/graphql"
 	"io"
 	"os"
 )
